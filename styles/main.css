@@ -1,0 +1,127 @@
+body {
+    background: linear-gradient(130deg,#ff7a18,#af002d 41.07%,#319197 76.05%);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    background: rgba(0,0,0,.25); 
+}
+
+.header_container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.header_menu {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.menu_item {
+    list-style: none;
+    margin: 0 10px;
+    font-family: Gotham Narrow SSm A,Gotham Narrow SSm B,Rubik,Lato,Lucida Grande,Lucida Sans Unicode,Tahoma,Sans-Serif;
+}
+
+.header_wrapper_icon {
+    display: flex;
+    align-items:center;
+}
+
+.header_icon {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;        
+}
+
+.header_icon i {
+    color: white;    
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main_text {
+    max-width: 800px;
+    padding: 40px 0;
+}
+
+.main_block {
+    max-width: 1200px;
+    background-color: white;
+    padding: 30px; 
+    border-radius: 8px;  
+}
+
+.container_content {
+    max-width: 1200px;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+     
+    
+}
+
+.content_blocks {
+    max-width: 45%;
+    display: flex;
+    border: 1px black solid;
+    margin: 10px auto;
+    background: linear-gradient(rgba(156,39,176,.2),#fff);
+}
+
+
+.h3_list h3::before {
+    content: "▶";
+    color: #4472b9;
+    font-family: Gotham Narrow SSm A,Gotham Narrow SSm B,Rubik,Lato,Lucida Grande,Lucida Sans Unicode,Tahoma,Sans-Serif;
+}
+ul {
+    padding: 0;
+    line-height: 2;
+}
+
+li {
+    list-style: none;
+
+    
+}
+
+.main_block li::before {
+    content: "⦾ ";
+    color: #ff7a18;
+}
+
+table {
+    width: 100%;
+    border: 1px solid #bebebe;
+    border-radius: 8px;
+    border-spacing: 0;
+    overflow: hidden;
+    
+}
+
+
+thead th {
+    text-align: left;
+    background: #262626;
+    color: #fff;
+    border: 1px solid #a7a7a7;
+    padding: 10px;
+}
+
+tbody td {
+    border-right: 1px solid #bebebe;
+    padding: 10px;
